@@ -1,0 +1,3 @@
+/home/arek/OneDrive/AHE/Semestr_4/Systemy_Informatyczne_Zarządzania/Projekt/Zadanie_5/cmake-build-debug/CMakeFiles/Zadanie_5.dir
+/home/arek/OneDrive/AHE/Semestr_4/Systemy_Informatyczne_Zarządzania/Projekt/Zadanie_5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/arek/OneDrive/AHE/Semestr_4/Systemy_Informatyczne_Zarządzania/Projekt/Zadanie_5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
