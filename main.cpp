@@ -9,18 +9,9 @@ int main() {
 
 
     /*************************/
+    testFileOpen((FILE *) "test.bmp");
 
-    FILE* w = fopen("negative.bmp", "wb");
-    if (w == nullptr)
-    {
-        printf("\n\n Can't open the file");
-        return -1;
-    }
-    else
-    {
-        printf("\n\n File w opened!");
-    }
-
+    negativeFileOpen((FILE *)"negative.bmp");
     fseek(w, 0, SEEK_SET);
     fwrite(&File.bfType, sizeof(File.bfType), 1, w);
     fwrite(&File.bfSize, sizeof(File.bfSize), 1, w);
@@ -54,8 +45,8 @@ int main() {
     }
 
     printf("\n");
-    fileClose((FILE *) "test.bmp");
-    fileClose((FILE *) "negative.bmp");
+    testFileClose((FILE *) "test.bmp");
+    testFileClose((FILE *) "negative.bmp");
 
     return 0;
 }

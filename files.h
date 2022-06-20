@@ -7,6 +7,9 @@
 #include<string>
 
 FILE* f;
-void fileOpen(FILE *fName);
-void fileClose(FILE *fName);
+FILE* w;
+void testFileOpen(FILE *fName);
+void testFileClose(FILE *fName);
+int negativeFileOpen (FILE *fName);
+void negativeFileClose (FILE *fName);
 #endif //ZADANIE_5_FILES_H

@@ -18,7 +18,23 @@ void fileOpen(const char *fName)
         printf("\n\n File f opened!");
     }
 }
-void fileClose(FILE *fName)
+void testFileClose(FILE *fName)
 {
     fclose(fName);
+}
+int negativeFileOpen (FILE *fName)
+{
+        w = fopen("negative.bmp", "wb");
+    if(w == nullptr)
+    {
+        printf("\n\n Can't open the file");
+        return -1;
+    } else
+        {
+            printf("\n\n File opened");
+        }
+}
+void negativeFileClose (FILE *fName)
+{
+    fclose(w);
 }
