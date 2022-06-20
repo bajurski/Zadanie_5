@@ -6,7 +6,7 @@
 
 void fileOpen(const char *fName)
 {
-     f = fopen(fName, "rb");
+     FILE* f = fopen(fName, "rb");
 
     if (f == nullptr)
     {
@@ -24,7 +24,7 @@ void testFileClose(FILE *fName)
 }
 int negativeFileOpen (FILE *fName)
 {
-        w = fopen("negative.bmp", "wb");
+        FILE* w = fopen("negative.bmp", "wb");
     if(w == nullptr)
     {
         printf("\n\n Can't open the file");
@@ -33,6 +33,7 @@ int negativeFileOpen (FILE *fName)
         {
             printf("\n\n File opened");
         }
+
 }
 void negativeFileClose (FILE *fName)
 {

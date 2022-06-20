@@ -6,8 +6,7 @@
 #define ZADANIE_5_FILES_H
 #include<string>
 
-FILE* f;
-FILE* w;
+
 void testFileOpen(FILE *fName);
 void testFileClose(FILE *fName);
 int negativeFileOpen (FILE *fName);

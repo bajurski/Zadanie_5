@@ -5,6 +5,7 @@
 #include "printInfo.h"
 
 void printInfo() {
+
     printf("\n INFORMACJE O BITMAPIE\n\n");
 
     fread(&File.bfType, sizeof(File.bfType), 1, f);
