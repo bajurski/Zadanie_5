@@ -35,6 +35,6 @@ struct KoloryRGB {
     char G;
     char B;
 } Rgb;
-
+void printInfo();
 
 #endif //ZADANIE_5_PRINTINFO_H
