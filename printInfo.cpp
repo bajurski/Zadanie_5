@@ -3,6 +3,7 @@
 //
 
 #include "printInfo.h"
+
 void printInfo() {
     printf("\n INFORMACJE O BITMAPIE\n\n");
 

@@ -8,6 +8,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <limits.h>
+#include"files.h"
+
 struct FileHeader {
     short bfType;
     int bfSize;

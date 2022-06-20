@@ -4,17 +4,7 @@
 
 int main() {
 
-    FILE* f = fopen("test.bmp", "rb");
 
-    if (f == nullptr)
-    {
-        printf("\n\n Can't open the file");
-        return -1;
-    }
-    else
-    {
-        printf("\n\n File f opened!");
-    }
 
 
 
@@ -64,8 +54,8 @@ int main() {
     }
 
     printf("\n");
-    fclose(f);
-    fclose(w);
+    fileClose((FILE *) "test.bmp");
+    fileClose((FILE *) "negative.bmp");
 
     return 0;
 }
