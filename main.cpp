@@ -1,6 +1,6 @@
 #include <iostream>
 #include"printInfo.h"
-#include"files.h"
+
 
 int main() {
 
@@ -9,10 +9,8 @@ int main() {
 
 
     /*************************/
-    testFileOpen((FILE *) "test.bmp");
 
-    negativeFileOpen((FILE *)"negative.bmp");
-    fseek(w, 0, SEEK_SET);
+   /* fseek(w, 0, SEEK_SET);
     fwrite(&File.bfType, sizeof(File.bfType), 1, w);
     fwrite(&File.bfSize, sizeof(File.bfSize), 1, w);
     fwrite(&File.bfReserved1, sizeof(File.bfReserved1), 1, w);
@@ -42,11 +40,9 @@ int main() {
         fread(&bmpImg, 3, 1, f);
         bmpImg = INT_MAX - bmpImg; //Tworzymy negatyw
         fwrite(&bmpImg, 3, 1, w);
-    }
-
+    }*/
+    printInfo();
     printf("\n");
-    testFileClose((FILE *) "test.bmp");
-    testFileClose((FILE *) "negative.bmp");
 
     return 0;
 }

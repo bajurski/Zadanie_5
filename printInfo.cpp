@@ -5,7 +5,19 @@
 #include "printInfo.h"
 
 void printInfo() {
+    FileHeader File;
+    PictureHeader Picture;
+    FILE* f = fopen("test.bmp", "rb");
 
+    if (f == nullptr)
+    {
+        printf("\n\n Can't open the file");
+
+    }
+    else
+    {
+        printf("\n\n File f opened!");
+    }
     printf("\n INFORMACJE O BITMAPIE\n\n");
 
     fread(&File.bfType, sizeof(File.bfType), 1, f);
@@ -59,4 +71,5 @@ void printInfo() {
     fread(&Picture.biClrImportant, sizeof(Picture.biClrImportant), 1, f);
     printf("\n Wazne kolory w palecie: %d", Picture.biClrImportant);
 
+    fclose(f);
 }

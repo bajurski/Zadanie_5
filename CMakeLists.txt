@@ -3,4 +3,4 @@ project(Zadanie_5)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(Zadanie_5 main.cpp printInfo.cpp printInfo.h files.cpp files.h)
+add_executable(Zadanie_5 main.cpp printInfo.cpp printInfo.h makeNegative.cpp makeNegative.h)
