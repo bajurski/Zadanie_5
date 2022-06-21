@@ -1,3 +1,3 @@
-/home/arek/Programming/C++/Zadanie_5/cmake-build-debug/CMakeFiles/Zadanie_5.dir
-/home/arek/Programming/C++/Zadanie_5/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/arek/Programming/C++/Zadanie_5/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/arek/Programming/C++/PSIZ_Zad_5/cmake-build-debug/CMakeFiles/Zadanie_5.dir
+/Users/arek/Programming/C++/PSIZ_Zad_5/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/arek/Programming/C++/PSIZ_Zad_5/cmake-build-debug/CMakeFiles/rebuild_cache.dir

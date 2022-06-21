@@ -28,10 +28,4 @@
     int biClrUsed;
     int biClrImportant;
 };
-
-extern struct KoloryRGB {
-    char R;
-    char G;
-    char B;
-} Rgb;
 #endif //ZADANIE_5_STRUCTURES_H
