@@ -4,6 +4,9 @@
 
 #ifndef ZADANIE_5_STRUCTURES_H
 #define ZADANIE_5_STRUCTURES_H
+#include <stdio.h>
+#include <stdlib.h>
+#include <limits.h>
  struct FileHeader {
     short bfType;
     int bfSize;

@@ -12,7 +12,7 @@ void printInfo() {
     if (f == nullptr)
     {
         printf("\n\n Can't open the file");
-
+        exit;
     }
     else
     {
