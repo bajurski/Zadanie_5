@@ -4,7 +4,7 @@
 
 #include "makeNegative.h"
 
-void fileOpen(const char *fName)
+void makeNegFile()
 {
 
 }
