@@ -4,6 +4,7 @@
 
 #include "makeNegative.h"
 
+
 void makeNegFile()
 {
     FileHeader File;
@@ -18,6 +19,18 @@ void makeNegFile()
     {
         printf("\n\n File w opened!");
     }
+    FILE* f = fopen("test.bmp", "rb");
+
+    if (f == nullptr)
+    {
+        printf("\n\n Can't open the file");
+        exit;
+    }
+    else
+    {
+        printf("\n\n File f opened!");
+    }
+
  fseek(w, 0, SEEK_SET);
     fwrite(&File.bfType, sizeof(File.bfType), 1, w);
     fwrite(&File.bfSize, sizeof(File.bfSize), 1, w);
@@ -49,5 +62,9 @@ void makeNegFile()
         bmpImg = INT_MAX - bmpImg; //Tworzymy negatyw
         fwrite(&bmpImg, 3, 1, w);
     }
+    printf("\n");
+    fclose(f);
+    fclose(w);
+
 }
 

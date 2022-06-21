@@ -7,5 +7,6 @@
 #include<string>
 #include"structures.h"
 
+
 void makeNegFile();
 #endif //ZADANIE_5_MAKENEGATIVE_H
